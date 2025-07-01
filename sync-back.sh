@@ -1,3 +1,6 @@
-rsync -av $DEV/myconfigs/i3 $HOME/.config
-rsync -av $DEV/myconfigs/spaceship.zsh $HOME/.config
-rsync -av $DEV/myconfigs/ghostty $HOME/.config
+SOURCE=$DEV/myconfigs
+DESTINATION=$HOME/.config
+
+rsync -av $SOURCE/i3 $DESTINATION
+rsync -av $SOURCE/spaceship.zsh $DESTINATION
+rsync -av $SOURCE/ghostty $DESTINATION
