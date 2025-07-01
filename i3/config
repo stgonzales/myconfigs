@@ -266,6 +266,3 @@ exec_always feh --bg-scale /home/stgonzales/Pictures/wallpapers/robot-3440x1440.
 
 #Ignore theme
 exec_always --no-startup-id /usr/libexec/gsd-xsettings
-
-#pull latest conifg repo and sync back
-exec_always cd $DEV/myconfigs && git pull && ./sync-back.sh
