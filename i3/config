@@ -269,3 +269,5 @@ exec_always --no-startup-id /usr/libexec/gsd-xsettings
 
 #pull latest conifg repo and sync back
 exec_always cd $DEV/myconfigs && git pull && ./sync-back.sh
+
+#heeey
