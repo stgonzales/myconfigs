@@ -1,4 +1,4 @@
-# myconfigs
+# My Linux RICING
 My configurations for i3, zsh, ghostty, etc
 
 - clone this repo
