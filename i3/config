@@ -169,6 +169,7 @@ assign [class="whatsapp-linux-app"] $ws3
 
 assign [class="Spotify"] $ws4
 
+assign [class="Blender"] $ws5
 assign [class="obsidian"] $ws5
 
 assign [class="Snap-store"] $ws6
@@ -244,3 +245,9 @@ exec_always feh --bg-scale /home/stgonzales/Pictures/wallpapers/robot-3440x1440.
 
 #Ignore theme
 exec_always --no-startup-id /usr/libexec/gsd-xsettings
+
+
+#screen lock
+exec_always --no-startup-id xset s 1200 5
+exec_always --no-startup-id xset +dpms
+exec_always --no-startup-id xset dpms 1200 1200 1200
