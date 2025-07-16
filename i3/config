@@ -241,7 +241,7 @@ exec --no-startup-id Discord | $ws3
 exec --no-startup-id Spotify | $ws4
 
 #Wallpaper
-exec_always feh --bg-scale /home/stgonzales/Pictures/wallpapers/robot-3440x1440.jpg
+exec_always feh --randomize --bg-scale /media/stgonzales/STEPHEN/wallpapers/*
 
 #Ignore theme
 exec_always --no-startup-id /usr/libexec/gsd-xsettings
